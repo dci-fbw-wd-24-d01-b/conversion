@@ -41,7 +41,7 @@ console.log(typeof NaN);
 // val !== val true ergibt.
 console.log(NaN === NaN); // false
 
-// isNaN(x) bestimmt, ob ein Wert NaN ist, aber der Test ist nich zuverlässig
+// isNaN(x) bestimmt, ob ein Wert NaN ist, aber der Test ist nicht zuverlässig
 let myProduct = 3 * 'John'; // NaN
 console.log('myProduct ist', myProduct); // NaN
 console.log(isNaN(myProduct)); // true, aber:
